@@ -2,7 +2,7 @@ name: Demo workflow
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: fedora 
+    runs-on: ubuntu-latest 
     steps:
       - name: Print greating
         run: echo 'Hi, Merion'
