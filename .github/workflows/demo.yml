@@ -1,0 +1,9 @@
+name: Demo workflow 
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: fedora 
+    steps:
+      - name: Print greating
+        run: echo 'Hi, Merion'
+      
